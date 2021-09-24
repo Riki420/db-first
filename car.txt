@@ -1,0 +1,14 @@
+           Entity: car
+
+
+    NAME ----> TYPE ----> PROP -----------> COMMENT
+
+id ----> INT ----> PRIMARYKEY(NOTNULL, UNIQUE, AUTOINCREMENT)
+model -----> VARCHAR(20) -----> UNIQUE, NOTNULL
+brand -----> VARCHAR(20) -----> UNIQUE, NOTNULL
+year -----> YEAR -----> NOTNULL
+kms_traveled -----> SMALLINT -----> NULL
+is_4x4 -----> CHAR(1) -----> NOTNULL  -----------> [BOOLEAN T/F]
+is_automatic -----> CHAR(1) -----> NOTNULL  ------------> [BOOLEAN T/F]
+fuel ----> CHAR(3) ----> NOTNULL ------------> [GPL,MTN,BNZ]
+color_veichle ----> VARCHAR(20) ----> NULL
